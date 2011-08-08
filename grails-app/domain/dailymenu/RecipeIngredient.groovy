@@ -5,7 +5,7 @@ class RecipeIngredient {
     static constraints = {
     }
 	
-	Ingredient ingredient
-	int quantity
+	static belongsTo = [ingredient:Ingredient]
+	Integer quantity
 	String description
 }

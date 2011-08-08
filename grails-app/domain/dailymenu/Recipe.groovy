@@ -3,7 +3,7 @@ package dailymenu
 class Recipe {
 
     static constraints = {
-		name(blank:false, maxSize:50)
+		name(blank: false, maxSize:50)
 		dateCreated()
 		preparationTime()
     }
@@ -14,7 +14,7 @@ class Recipe {
 	/*
 	 * Preparation time in minutes
 	 */
-	int preparationTime
+	Integer preparationTime
 	
 	static hasMany = [items:RecipeIngredient]
 }
