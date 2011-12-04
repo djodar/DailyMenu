@@ -3,7 +3,7 @@ package dailymenu
 /**
  * Price of an ingredient in a shop
  */
-class Price {
+class IngredientShop {
 
     static constraints = {
 		shop()
@@ -17,7 +17,6 @@ class Price {
 	 * Units: could be anything, items, grams, liter
 	 */
 	String units
-	Shop shop
 	
-	static belongsTo = [ingredient: Ingredient] 
+	static belongsTo = [ingredient: Ingredient, shop: Shop] 
 }

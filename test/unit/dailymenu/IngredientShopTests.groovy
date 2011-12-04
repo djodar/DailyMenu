@@ -2,7 +2,7 @@ package dailymenu
 
 import grails.test.*
 
-class PriceControllerTests extends ControllerUnitTestCase {
+class IngredientShopTests extends GrailsUnitTestCase {
     protected void setUp() {
         super.setUp()
     }

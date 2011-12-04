@@ -8,6 +8,6 @@ class Ingredient {
     }
 	
 	String name
-	static hasMany = [prices: Price]
+	static hasMany = [prices: IngredientShop]
 	
 }

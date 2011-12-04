@@ -7,5 +7,5 @@ class Shop {
     }
 	
 	String name
-	static hasMany = [prices:Price]
+	static hasMany = [ingredients:IngredientShop]
 }

@@ -1,17 +1,12 @@
 package dailymenu
 
-import grails.test.*
+import org.junit.*
+import grails.test.mixin.*
 
-class IngredientControllerTests extends ControllerUnitTestCase {
-    protected void setUp() {
-        super.setUp()
-    }
+@TestFor(IngredientController)
+class IngredientControllerTests {
 
-    protected void tearDown() {
-        super.tearDown()
-    }
-
-    void testSomething() {
-
-    }
+	void testSomething() {
+	
+		}
 }
